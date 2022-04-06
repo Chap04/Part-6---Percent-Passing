@@ -34,7 +34,6 @@
             this.lblOutput = new System.Windows.Forms.Label();
             this.btnReset = new System.Windows.Forms.Button();
             this.btnDone = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // btnEnter
@@ -90,19 +89,11 @@
             this.btnDone.UseVisualStyleBackColor = true;
             this.btnDone.Click += new System.EventHandler(this.btnDone_Click);
             // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(308, 53);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(718, 20);
-            this.textBox1.TabIndex = 6;
-            // 
             // frmGrades
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1063, 191);
-            this.Controls.Add(this.textBox1);
+            this.ClientSize = new System.Drawing.Size(300, 191);
             this.Controls.Add(this.btnDone);
             this.Controls.Add(this.btnEnter);
             this.Controls.Add(this.btnReset);
@@ -124,7 +115,6 @@
         private System.Windows.Forms.Label lblOutput;
         private System.Windows.Forms.Button btnReset;
         private System.Windows.Forms.Button btnDone;
-        private System.Windows.Forms.TextBox textBox1;
     }
 }
 

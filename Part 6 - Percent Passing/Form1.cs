@@ -57,6 +57,7 @@ namespace Part_6___Percent_Passing
             overallPercentage = 0;
             tempGradeStore = 0;
             decimalPercentage = 0;
+            lblOutput.Text = ("");
         }
     }
 }
